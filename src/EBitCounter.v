@@ -5,7 +5,7 @@ module EbitClock(
   input areset,
   input triState,
   output reg [7:0] q,
-  output reg [7:0] out
+  output [7:0] out
 );
 
   
