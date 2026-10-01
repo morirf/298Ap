@@ -4,7 +4,7 @@ This chip will be a design for an 8-bit processor with a custom ISA. Instruction
 
 # System Diagram:
 
-![System diagram](media/image1.png)
+<img width="975" height="384" alt="image" src="https://github.com/user-attachments/assets/1a30f948-fc32-4b93-8a09-51c6c4c62de8" />
 
 PC sends address of the next instruction to RP 2040 which then sends that instruction. Control Logic decodes instruction and instructs the Datapath. Value of output register is then sent to RP2040.
 
